@@ -860,11 +860,13 @@ ARM Macro Assembler    Page 14
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\output\startup_stm32f4xx.d -o.\output\startup_stm32f4xx.o -ID
-:\Keil_v515\ARM\RV31\INC -ID:\Keil_v515\ARM\CMSIS\Include -ID:\Keil_v515\ARM\In
-c\ST\STM32F4xx --predefine="__UVISION_VERSION SETA 515" --list=.\listing\startu
-p_stm32f4xx.lst ..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\sta
-rtup_stm32f4xx.s
+erwork --depend=.\output\startup_stm32f4xx.d -o.\output\startup_stm32f4xx.o -IC
+:\Users\e1205074\Downloads\Open407V-D-Demo\LCD\Project\RTE -IC:\Keil_v5\ARM\PAC
+K\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0
+\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__EVAL SETA 1" --predef
+ine="__UVISION_VERSION SETA 521" --predefine="_RTE_ SETA 1" --predefine="STM32F
+407xx SETA 1" --list=.\listing\startup_stm32f4xx.lst ..\Libraries\CMSIS\Device\
+ST\STM32F4xx\Source\Templates\arm\startup_stm32f4xx.s
 
 
 
@@ -2319,4 +2321,4 @@ es\arm\startup_stm32f4xx.s
       None
 Comment: __use_two_region_memory unused
 3 symbols
-447 symbols in table
+450 symbols in table
